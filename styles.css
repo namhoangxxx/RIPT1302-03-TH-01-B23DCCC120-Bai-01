@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.clock {
+    display: inline-flex;
+    margin-top: 10px; /* Để tạo khoảng cách giữa dòng chữ và hộp */
+}
+
+.hour-box, .minute-box, .second-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px; 
+    background-color: #4CAF50; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.label {
+    font-size: 1em; 
+    color: #fff; 
+}
